@@ -12,6 +12,7 @@ class SocialButton extends StatelessWidget {
   final Color? iconColor;
 
   const SocialButton({
+    super.key,
     required this.icon,
     required this.label,
     required this.onPressed,
